@@ -38,7 +38,7 @@ describe('MovieCard component', () => {
       'have.attr',
       'src',
       'https://m.media-amazon.com/images/' +
-      'M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
+        'M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
     );
   });
 });
