@@ -8,7 +8,8 @@ describe('MovieCard component', () => {
       title: 'Movie title',
       description: 'Some description',
       imgUrl:
-        'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
+        'https://m.media-amazon.com/images/' +
+        'M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
       imdbUrl: 'https://www.imdb.com/title/tt1375666',
       imdbId: 'tt1375666',
     };
@@ -36,7 +37,8 @@ describe('MovieCard component', () => {
     cy.getByDataCy('MovieImage').should(
       'have.attr',
       'src',
-      'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
+      'https://m.media-amazon.com/images/' +
+      'M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
     );
   });
 });
